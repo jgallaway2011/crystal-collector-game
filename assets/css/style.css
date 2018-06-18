@@ -2,42 +2,40 @@
 /* Background Image */
 body {
     background: #ffffff url("../images/ep_naturalwhite.png");
+    margin: 10px;
 }
 
-h1 {
+header {
     font-weight: bold;
     font-size: 40px;
+    text-align: center;
     color: white;
-}
-
-span {
     background-color: orange;
+    margin: 0px;
 }
 
-div {
+/* div {
     border: 1px solid red;
+} */
+
+.crystalButton {
+    height: 111px;
+    width: 111px;
 }
 
-#blueCrystal {
+#crystalButton1 {
     background-image: url("..//images/blueCrystal.PNG");
-    height: 111px;
-    width: 111px;
+
 }
 
-#yellowCrystal {
+#crystalButton2 {
     background-image: url("..//images/yellowCrystal.PNG");
-    height: 111px;
-    width: 111px;
 }
 
-#greenCrystal {
+#crystalButton3 {
     background-image: url("..//images/greenCrystal.PNG");
-    height: 111px;
-    width: 111px;
 }
 
-#redCrystal {
+#crystalButton4 {
     background-image: url("..//images/redCrystal.PNG");
-    height: 111px;
-    width: 111px;
 }
