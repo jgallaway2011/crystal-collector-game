@@ -34,11 +34,14 @@ $(document).ready(function(){
     }
 
     $(".crystalButton").on("click", function() {
+        $("#loss").remove();
+        $("#win").remove();
         crystalRandomNumber = parseInt($(this).attr("crystalRandomNumber"));
         userScore = userScore + crystalRandomNumber;
         $("#userScore").html(userScore);
 
         if (userScore > randomNumber) {
+            $("#winsAndLosses").prepend("<div id=loss>YOU LOST!</div>");
             losses++;
             $("#losses").html("Losses: " + losses);
             userScore = 0;
@@ -47,6 +50,7 @@ $(document).ready(function(){
             $("#randomNumber").html(randomNumber);
 
         } else if (userScore === randomNumber) {
+            $("#winsAndLosses").prepend("<div id=win>YOU WON!</div>");
             wins++;
             $("#wins").html("Wins: " + wins);
             userScore = 0;
