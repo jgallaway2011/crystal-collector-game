@@ -14,18 +14,14 @@ header {
     margin: 0px;
 }
 
-/* div {
-    border: 1px solid red;
-} */
-
 .crystalButton {
     height: 111px;
     width: 111px;
+    margin: 10px 10px 10px 0px;
 }
 
 #crystalButton1 {
     background-image: url("..//images/blueCrystal.PNG");
-
 }
 
 #crystalButton2 {

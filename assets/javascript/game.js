@@ -1,16 +1,19 @@
-// VARIABLES
+// VARIABLES (GLOBAL)
 //========================================================================================================================
 
 // Generate Random Number 
 var randomNumber = Math.floor(Math.random() * 102) + 19;
 
+// Intialize Wins at Zero
 var wins = 0;
 
+// Intialize Losses at Zero
 var losses = 0;
 
+// Intialize user score at Zero
 var userScore = 0;
 
-// FUNCTIONS
+// MAIN PROCESS
 //========================================================================================================================
 
 $(document).ready(function(){
