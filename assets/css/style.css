@@ -1,0 +1,43 @@
+
+/* Background Image */
+body {
+    background: #ffffff url("../images/ep_naturalwhite.png");
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+span {
+    background-color: orange;
+}
+
+div {
+    border: 1px solid red;
+}
+
+#blueCrystal {
+    background-image: url("..//images/blueCrystal.PNG");
+    height: 111px;
+    width: 111px;
+}
+
+#yellowCrystal {
+    background-image: url("..//images/yellowCrystal.PNG");
+    height: 111px;
+    width: 111px;
+}
+
+#greenCrystal {
+    background-image: url("..//images/greenCrystal.PNG");
+    height: 111px;
+    width: 111px;
+}
+
+#redCrystal {
+    background-image: url("..//images/redCrystal.PNG");
+    height: 111px;
+    width: 111px;
+}
