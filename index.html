@@ -2,21 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Crystals Collector</title>
+  <title>Crystal Collector</title>
 
   <!-- Adds link to the jQuery Library and game.js-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script defer src="assets/javascript/game.js" type="text/javascript"></script>
 
-  <!-- Links to CSS files -->
+  <!-- Adds link to CSS files -->
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Adds favicon -->
+  <link rel="icon" href="assets/images/blueCrystal.PNG" type="image/gif" sizes="16x16">
 
 </head>
 <body>
 
   <div>
 
-    <h1><span>Crystals Collector!</span></h1>
+    <h1><span>Crystal Collector!</span></h1>
 
     <div>
         <p>You will be given a random number at the start of the game.</p>
@@ -28,10 +32,8 @@
 
     <div>
         <div id="randomNumber">
-            Random Number Here
         </div>
         <div id="winsAndLosses">
-            Wins and Losses Here
         </div>
         <div>
                 <button id="blueCrystal"></button>
@@ -41,11 +43,9 @@
         </div>
     </div>
     <div>Your total score is:</div>
-    <div>
-        UserScore
+    <div id="userScore">
     </div>
   </div>
 
-  <script defer src="assets/javascript/game.js" type="text/javascript"></script>
 </body>
 </html>
