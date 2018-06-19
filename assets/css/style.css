@@ -5,6 +5,7 @@ body {
     margin: 10px;
 }
 
+/* Settings for header */
 header {
     font-weight: bold;
     font-size: 40px;
@@ -14,24 +15,30 @@ header {
     margin: 0px;
 }
 
+
+/* Setting for all four crystal buttons */
 .crystalButton {
     height: 111px;
     width: 111px;
     margin: 10px 10px 10px 0px;
 }
 
+/* Blue Crystal Background Image for button */
 #crystalButton1 {
     background-image: url("..//images/blueCrystal.PNG");
 }
 
+/* Yellow Crystal Background Image for button */
 #crystalButton2 {
     background-image: url("..//images/yellowCrystal.PNG");
 }
 
+/* Green Crystal Background Image for button */
 #crystalButton3 {
     background-image: url("..//images/greenCrystal.PNG");
 }
 
+/* Red Crystal Background Image for button */
 #crystalButton4 {
     background-image: url("..//images/redCrystal.PNG");
 }
