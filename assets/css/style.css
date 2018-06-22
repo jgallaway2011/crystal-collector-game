@@ -42,3 +42,15 @@ header {
 #crystalButton4 {
     background-image: url("..//images/redCrystal.PNG");
 }
+
+
+.container {
+    width: 100px;
+    text-align: center;
+}
+
+#userScore {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
