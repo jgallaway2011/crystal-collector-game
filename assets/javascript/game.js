@@ -84,8 +84,6 @@ $(document).ready(function(){
             randomNumber = Math.floor(Math.random() * 102) + 19;
             // Display new randomNumber in index.html document
             $("#randomNumber").html(randomNumber);
-        } else {
-            // Keep collecting (clicking) those crystals!
         }
     });
  });
